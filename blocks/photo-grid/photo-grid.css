@@ -1,0 +1,22 @@
+.photo-grid {
+  width: 90%;
+  align-items: center;
+  margin: 0;
+  padding: 92px 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .photo-grid {
+    padding-top: 64px;
+    padding-bottom: 88px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    padding-top: 38px;
+    padding-bottom: 62px;
+    width: 90%;
+  }
+}

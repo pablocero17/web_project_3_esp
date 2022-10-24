@@ -12,12 +12,6 @@
   color: white;
 }
 
-@media screen and (max-width: 1280px) {
-  .intro__text {
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 780px) {
   .intro__text {
     width: 100%;
