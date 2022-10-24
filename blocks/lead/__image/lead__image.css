@@ -1,10 +1,25 @@
 .lead__image {
-  /* __image */
-  width: 984px;
-  height: 615px;
-
-  background: url(/images/kalegin-michail-179870-unsplash.jpg), #2a2c2f;
+  max-width: 984px;
+  background: #2a2c2f;
   mix-blend-mode: luminosity; /*Cambie este efecto en lugar hue ya que no es igual al de Figma*/
-
   margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__image {
+    margin-bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .lead__image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: 100%;
+    margin-bottom: 44px;
+  }
 }
