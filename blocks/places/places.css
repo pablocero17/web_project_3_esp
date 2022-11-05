@@ -1,0 +1,23 @@
+.places {
+  width: 984px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 80px; /*Espacio entre los place*/
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 780px) {
+  .places {
+    width: 720px;
+    row-gap: 480px; /*Espacio entre places para evitar desbordamiento entre los textos*/
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .places {
+    width: 320px;
+    row-gap: 16px;
+  }
+}

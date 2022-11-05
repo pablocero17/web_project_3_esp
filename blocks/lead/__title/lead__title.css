@@ -14,14 +14,14 @@
   color: white;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) and (min-width: 780px) {
   .lead__title {
     width: 720px;
     margin-bottom: 99px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 779px) {
   .lead__title {
     width: 288px;
 

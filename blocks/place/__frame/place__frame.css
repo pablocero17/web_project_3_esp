@@ -1,0 +1,17 @@
+.place__frame {
+  display: flex;
+  justify-content: center;
+  padding: 13px 20px;
+  gap: 10px;
+  max-width: 305px; /*Un ancho mas similar al mostrado en figma*/
+  background: #0278fe;
+  border-radius: 4px;
+  margin: 0;
+  grid-area: frame;
+}
+
+@media screen and (max-width: 779px) {
+  .place__frame {
+    max-width: 288px;
+  }
+}
