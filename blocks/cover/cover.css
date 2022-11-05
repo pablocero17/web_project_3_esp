@@ -1,0 +1,34 @@
+.cover {
+  width: 1184px;
+  height: 740px;
+
+  /*Background Inmage*/
+  background-image: url(/images/cover__background.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  padding: 0;
+  margin: 92px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    margin-top: 280px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .cover {
+    width: 100%;
+    height: 254px;
+    margin: 64px 0;
+  }
+}

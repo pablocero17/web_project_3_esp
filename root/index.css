@@ -30,3 +30,13 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__frame/place__frame.css);
 @import url(../blocks/place/__frame/__paragraph/place__frame__paragraph.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__frame/cover__frame.css);
+@import url(../blocks/cover/__frame/__paragraph/cover__frame__paragraph.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
