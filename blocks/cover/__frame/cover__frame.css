@@ -7,6 +7,12 @@
   background: #0278fe;
   border-radius: 4px;
   margin-top: 32px;
+  text-decoration: none;
+}
+
+.cover__frame:hover {
+  background-color: #0063d2;
+  transition: background-color 0.1s linear 0.05s;
 }
 
 @media screen and (max-width: 779px) {
