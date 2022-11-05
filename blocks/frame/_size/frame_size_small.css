@@ -1,0 +1,9 @@
+.frame_size_small {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 779px) {
+  .frame_size_small {
+    margin-top: 16px;
+  }
+}

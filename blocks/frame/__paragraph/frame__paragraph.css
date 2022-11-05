@@ -1,4 +1,4 @@
-.cover__frame__paragraph {
+.frame__paragraph {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -8,4 +8,13 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 779px) {
+  .frame__paragraph {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }

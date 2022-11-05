@@ -1,0 +1,4 @@
+.frame_active:hover {
+  background-color: #0063d2;
+  transition: background-color 0.1s linear 0.05s;
+}

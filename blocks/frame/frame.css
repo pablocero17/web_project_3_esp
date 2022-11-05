@@ -1,0 +1,20 @@
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 13px 20px;
+  gap: 10px;
+  background-color: #0278fe;
+  border-radius: 4px;
+
+  grid-area: frame;
+  margin: 0;
+  max-width: 305px; /*Un ancho mas similar al mostrado en figma*/
+  text-decoration: none;
+}
+
+@media screen and (max-width: 779px) {
+  .frame {
+    max-width: 288px;
+  }
+}
