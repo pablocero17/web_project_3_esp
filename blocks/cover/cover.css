@@ -1,13 +1,7 @@
 .cover {
   width: 1184px;
   height: 740px;
-
-  /*Background Inmage*/
-  background-image: url(/images/cover__background.jpg);
-  background-size: cover;
-  background-position: center;
   text-align: center;
-
   padding: 0;
   margin: 92px 0;
 }

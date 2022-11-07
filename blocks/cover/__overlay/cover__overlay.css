@@ -1,8 +1,11 @@
 .cover__overlay {
   width: 100%;
   height: 100%;
-  /*Color #2A2C2F a rgb es 42,44,47*/
-  background-color: rgba(42, 44, 47, 0.3); /*opacidad 0.3 color negro*/
+
+  /*Background Inmage*/
+  background-image: url(/images/cover__background.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,6 +13,6 @@
 }
 
 .cover__overlay:hover {
-  background-color: rgba(42, 44, 47, 0.8); /*opacidad 0.8 color negro*/
+  background-color: rgba(42, 44, 47, 0.3);
   transition: background-color 0.1s linear 0.05s;
 }
