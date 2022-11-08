@@ -4,6 +4,14 @@
   text-align: center;
   padding: 0;
   margin: 92px 0;
+
+  /*Background Image*/
+  /*Revisor si agrego background-image en el selector _overlay no se aplica la opacidad con color, 
+  y utilizando opacity se comparte esta opacidad con los elementos hijos, por lo cual la mejor 
+  solución que encontré es dejarlo aqui como esta.*/
+  background-image: url(/images/cover__background.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (max-width: 1279px) {
