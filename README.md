@@ -30,4 +30,4 @@ Las tecnologias empleadas en el proyecto fueron HTML y CSS.
 
 **GitHub Pages**
 
-- [Enlace al proyecto en GitHub Pages]
+- [Enlace al proyecto en GitHub Pages](https://pablocero17.github.io/web_project_3_esp/)

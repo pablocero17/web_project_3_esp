@@ -1,7 +1,9 @@
 .cover__overlay {
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
-  position: relative;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,6 +11,5 @@
 }
 
 .cover__overlay:hover {
-  background-color: rgba(42, 44, 47, 0.3); /*opacidad 0.3 color negro*/
-  transition: background-color 0.1s linear 0.05s;
+  background-color: rgba(42, 44, 47, 0.3); /*Opacidad de 0.3*/
 }
